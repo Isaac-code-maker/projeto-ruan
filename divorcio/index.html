@@ -28,27 +28,29 @@
 <body>
     <div class="whatsapp"><i class="fa-brands fa-whatsapp"></i></div>
     <header>
-        <div class="overflow">
+        <div class="sample-header">
             <div class="container">
                 <div class="top">
                     <img src="./assets/logo.png" alt="Logo Ruan Campos Advocacia">
                 </div>
-
-                <div class="cta">
-                    <h1>Divórcio Extrajudicial</h1>
-                    <p>te ajudamos em cada passo!</p>
-                </div>
             </div>
+            <div class="sample-header-section">
+                <div class="cta">
+                        <h1>DIVÓRCIO</h1>
+                        <p>te ajudamos em cada passo!</p>
+                </div>
+        </div>
         </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
+    <section class="sticky-tab">
+        <div class="sticky-container">
+            <a class="sticky-tabs" href="#">Início</a>
+            <a class="sticky-tabs" href="#about">Sobre</a>
+            <a class="sticky-tabs" href="#contact">Contato</a>
+            <span class="sticky-tabs-slider"></span>
+          </div>
+    </section>
 
     <section class="about">
         <div class="container">
@@ -56,7 +58,7 @@
                 <img src="./assets/tchola.png" alt="Imagem do Advogado">
             </div>
             <div class="right">
-                <h2>Está pansando por um divórcio?</h2>
+                <h2>Está passando por um divórcio?</h2>
                 <p>Como advogado especializado, estou aqui para oferecer o suporte juridico necessário, garantindo que
                     seus direitos sejam protegidos e que cada etapa do processo seja conduzida com transparência e
                     eficiência. Meu compromisso é orientá-lo com segurança e clareza, auxiliando você a tomar decisões
@@ -94,24 +96,23 @@
 
     <section class="differences">
         <h1>Por que nos escolher para te ajudar?</h1>
-
         <div class="container">
             <div class="dif_single">
-                <i class="fa-solid fa-headset"></i>
+                <img src="./assets/icone1.png" width="75px">
                 <h3>Atendimento imediato</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, minus? Temporibus explicabo,
                     numquam tempore nisi modi voluptatibus quas dolorum illo saepe magnam fugiat nemo recusandae qui
                     porro. Veniam, atque dolores.</p>
             </div>
             <div class="dif_single">
-                <i class="fa-solid fa-earth-americas"></i>
+                <img src="./assets/icone2.png" width="60px">
                 <h3>Atendimento em todo país</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, minus? Temporibus explicabo,
                     numquam tempore nisi modi voluptatibus quas dolorum illo saepe magnam fugiat nemo recusandae qui
                     porro. Veniam, atque dolores.</p>
             </div>
             <div class="dif_single">
-                <i class="fa-solid fa-file-signature"></i>
+                <img src="./assets/icone3.png" width="50px">
                 <h3>Autoridade no assunto</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, minus? Temporibus explicabo,
                     numquam tempore nisi modi voluptatibus quas dolorum illo saepe magnam fugiat nemo recusandae qui
@@ -119,7 +120,6 @@
             </div>
         </div>
     </section>
-
     <section class="faq">
         <h1>PERGUNTAS FREQUENTES</h1>
 
@@ -143,8 +143,11 @@
         </div>
     </section>
 
-    <h1 class="depoiments-title">Depoimentos</h1>
+
     <section class="depoiments">
+        <div class="depoiments-title">
+        <h1>Depoimentos</h1>
+        </div>
         <div class="carousel-container">
             <button class="arrow left" onclick="prevSlide()"><i class="fa-solid fa-angle-left"></i></button>
             <div class="carousel">
@@ -169,6 +172,7 @@
                     <div class="testimonial-content">
                         <h3>Pedro Álvares cabral</h3>
                         <p>"A equipe foi incrível! Me senti muito segura em todas as etapas."</p>
+                        <div class="stars">★★★★★</div>
                     </div>
                 </div>
             </div>
